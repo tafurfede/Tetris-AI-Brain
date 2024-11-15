@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CleverBrain
+comment0.text=\ \ \t\n\ \ a\ brain\ really\ needs\ to\ do\ is\ provide\ two\ methods\:\ one\ \t\ \ \t\n\ \ to\ rate\ a\ board\ (to\ determine\ if\ one\ configuration\ is\ \t\ \ \t\n\ \ better\ than\ another),\ and\ one\ to\ choose\ the\ "best\ move",\ \ \t\n\ \ given\ the\ current\ state\ of\ the\ board\ and\ the\ current\ \ \ \t\n\ \ piece\ that\ is\ falling.\ Before\ we\ look\ at\ brains\ in\ more\ \ \ \t\n\ \ detail,\ let's\ look\ at\ the\ core\ classes\ that\ brains\ have\ \ \ \t\n\ \ to\ deal\ with\ in\ order\ to\ do\ their\ job.\ \ \t\n\ \ \ \ \t\n\ \ Follow\ it\ with\ additional\ details\ about\ its\ purpose,\ what\ abstraction\ \ \t\n\ \ it\ represents,\ and\ how\ to\ use\ it.\ \ \t\n\ \ \t\n\ \ @author\ Federico\ Tafur\ (fedetafur)\ \ \t\n\ \ @version\ (2023.10.31)\ \ \t\n
+comment1.params=
+comment1.target=CleverBrain()
+comment1.text=\n\ Initializes\ a\ newly\ created\ CleverBrain\ object.\n
+comment2.params=board
+comment2.target=double\ rateBoard(student.tetris.Board)
+comment2.text=\n\t\ \ \t\n\ this\ method\ rates\ the\ dificulty\ to\ which\ the\ board\n\ \t\ \ \t\n\ is\ at\ after\ every\ movement\ a\ new\ piece\ is\ dropped\ to\ \n\ \ \t\n\ the\ board.\ \ \ \t\n\ \n\ \ \ \t\n\ @param\ board\ this\ calls\ the\ board\ being\ used\ by\ the\ AI\n\ \ \t\n\ for\ tetris\ \n\ \ \t\n\ \ \ \t\n\ @return\ the\ rating\ of\ the\ board\ when\ the\ pieces\ are\ \t\ \ \t\n\ moved\ around\n\ \t\ \ \t\n
+comment3.params=board\ piece\ heightLimit
+comment3.target=student.tetris.Move\ bestMove(student.tetris.Board,\ student.tetris.Piece,\ int)
+comment3.text=\ \ \t\n\ this\ method\ uses\ the\ brain\ to\ check\ what\ would\ the\ final\ \ \t\n\ desireed\ position\ be\ when\ the\ block\ moves\ along\ the\ board.\ \ \t\n\ The\ intention\ is\ to\ look\ for\ the\ best\ possibe\ position,\ \ \t\n\ and\ then\ let\ the\ code\ do\ the\ rest,\ making\ it\ finish\ at\ the\ \ \ \t\n\ desired\ position.\ \ \ \t\n\ \ \ \t\n\ @param\ board\ this\ gets\ the\ board\ where\ AI\ tetris\ is\ played\ \ \t\n\ \ \ \t\n\ @param\ piece\ this\ is\ the\ piece\ to\ which\ is\ drops\ on\ the\ \t\ \ \t\n\ AI\ tetris\ \ \t\n\ \t\n\ @param\ heightLimit\ is\ the\ parameter\ taken\ to\ get\ the\ height\ \t\n\ of\ the\ tetris\ board\ limit\ \ \t\n\ \ \ \t\n\ @return\ the\ best\ move\ \ \t\n
+numComments=4
